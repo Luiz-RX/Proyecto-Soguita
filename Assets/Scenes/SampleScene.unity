@@ -441,6 +441,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1764822197650769775, guid: 34540e22174776846a809ee73131bb89, type: 3}
+      propertyPath: m_Intensity
+      value: 87.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764822197650769775, guid: 34540e22174776846a809ee73131bb89, type: 3}
+      propertyPath: m_SpotAngle
+      value: 78.2724
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764822197650769775, guid: 34540e22174776846a809ee73131bb89, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 78.2724
+      objectReference: {fileID: 0}
     - target: {fileID: 5036616948599799860, guid: 34540e22174776846a809ee73131bb89, type: 3}
       propertyPath: m_Name
       value: Capsule
@@ -484,6 +496,14 @@ PrefabInstance:
     - target: {fileID: 5721495370342296773, guid: 34540e22174776846a809ee73131bb89, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7242949907432458869, guid: 34540e22174776846a809ee73131bb89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7242949907432458869, guid: 34540e22174776846a809ee73131bb89, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 7393831863592983379, guid: 34540e22174776846a809ee73131bb89, type: 3}
       propertyPath: crosshairUI
@@ -624,8 +644,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -667,9 +687,9 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 1.59
   m_ColorTemperature: 5500
-  m_UseColorTemperature: 1
+  m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
