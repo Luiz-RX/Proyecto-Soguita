@@ -27,7 +27,7 @@ public class PlayerShoot : MonoBehaviour
         }
 
         // Disparar con Click Izquierdo
-        if (isAiming && Input.mouseScrollDelta.y != 0)
+        if (isAiming && Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
